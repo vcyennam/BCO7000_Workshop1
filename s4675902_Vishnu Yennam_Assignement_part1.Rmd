@@ -1,0 +1,22 @@
+---
+title: "Assignment1"
+author: "VishnuCharan Yennam s4675902"
+date: "04.03.2022"
+output: html_document
+
+## Assessment 1 - Part 1 
+
+
+# RMarkdown editing 
+
+** R Markdown is a file format for making dynamic documents with R. 
+* An R Markdown document is written in markdown an easy-to-write plain text format and contains chunks of embedded R code.
+
+### Click bellow to learn a lesson about RMarkdown
+
+* visit : https://rmarkdown.rstudio.com/lesson-8.html 
+
+####or 
+
+**visit: [click here](https://rmarkdown.rstudio.com/lesson-8.html )
+
