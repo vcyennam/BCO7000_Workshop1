@@ -26,11 +26,19 @@ This text is **Bold letters **
 
 
 ```{r}
-> library(data.table)
-> read.csv(file.choose())
-> fastfood <- read.csv(file.choose())
-> head(fastfood,10)
-> kable(fastfood[10:5])
-
 ```
+
+install.packages("tidyverse")
+
+fastfood <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-09-04/fastfood_calories.csv")
+
+library(data.table)
+head(fastfood,10)
+
+
+install.packages("knitr")
+library(knitr)
+kable(fastfood[10:5,])
+
+
 
