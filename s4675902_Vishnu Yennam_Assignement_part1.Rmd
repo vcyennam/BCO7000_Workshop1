@@ -12,11 +12,25 @@ output: html_document
 ** R Markdown is a file format for making dynamic documents with R. 
 * An R Markdown document is written in markdown an easy-to-write plain text format and contains chunks of embedded R code.
 
+This text is *Italic letters* 
+
+This text is **Bold letters **
+
 ### Click bellow to learn a lesson about RMarkdown
 
 * visit : https://rmarkdown.rstudio.com/lesson-8.html 
 
-####or 
+##or 
 
 **visit: [click here](https://rmarkdown.rstudio.com/lesson-8.html )
+
+
+```{r}
+> library(data.table)
+> read.csv(file.choose())
+> fastfood <- read.csv(file.choose())
+> head(fastfood,10)
+> kable(fastfood[10:5])
+
+```
 
